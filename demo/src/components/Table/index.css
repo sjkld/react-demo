@@ -1,0 +1,31 @@
+table{
+  margin: 20px;
+  width: calc(100% - 40px);
+  border-top: 1px solid #dddd;
+  border-left: 1px solid #dddd;
+}
+th,td{
+  width: 10%;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 20px;
+  padding: 10px 15px;
+  border-right: 1px solid #dddd;
+  border-bottom: 1px solid #dddd;
+  font-weight: 500;
+}
+th:first-child,td:first-child{
+  width: 20%;
+}
+th:nth-child(2),td:nth-child(2){
+  width: 55%;
+}
+thead{
+  background-color: rgb(241,242,246);
+}
+.remove{
+  color: #d0021b;
+  cursor: pointer;
+}
